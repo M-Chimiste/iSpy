@@ -63,7 +63,7 @@ class IPAddress:
 # Function: writeIPAddress
 # Purpose: To input a class IPAddress and then write the values to a line in
 # an output
-    def writeIPAddress(IPAddress, f):
+    def writeIPAddress(self, IPAddress, f):
         address = str(IPAddress.address)
         response = str(IPAddress.pingResponse)
         isLive = str(IPAddress.isLive)
